@@ -1,0 +1,1107 @@
+main .template-list-horizontal-fullwidth-container {
+  padding-top: 0;
+}
+
+main .template-list-fullwidth-container > div,
+main .template-list-fullwidth-apipowered-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+main .template-list-fullwidth-container > .default-content-wrapper,
+main .template-list-fullwidth-apipowered-container > .default-content-wrapper {
+  padding: 0 15px;
+}
+
+main .template-list-fullwidth-container .default-content-wrapper h2,
+main .template-list-fullwidth-container .default-content-wrapper p,
+main .template-list-fullwidth-apipowered-container .default-content-wrapper h2,
+main .template-list-fullwidth-apipowered-container .default-content-wrapper p {
+  margin: 0;
+  text-align: left;
+}
+
+main .template-list.template-list-complete {
+  min-height: unset;
+}
+
+main .template-list-horizontal-fullwidth-collaboration-container .default-content-wrapper h2,
+main .template-list-horizontal-fullwidth-collaboration-container .default-content-wrapper h3,
+main .template-list-horizontal-fullwidth-collaboration-container .default-content-wrapper p {
+  text-align: left;
+  padding: 0 28px;
+  margin: 12px 0;
+}
+
+main .template-list-horizontal-fullwidth-collaboration-container .default-content-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main .template-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto 0 auto;
+  font-size: var(--body-font-size-m);
+  font-weight: var(--body-font-weight);
+  text-align: left;
+}
+
+main .template-list.sixcols,
+main .template-list.fullwidth {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+main .template-list.sixcols > .masonry-col,
+main .template-list.fullwidth > .masonry-col {
+  max-width: 175px;
+}
+
+main .template-list .template-title {
+  margin: 0 12px 20px 12px;
+}
+
+main .template-list .template-title > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+main .template-list .template-title > div > * {
+  text-align: left;
+  margin: 0;
+}
+
+main .template-list .template-title p {
+  margin-top: 8px;
+  width: fit-content;
+  font-size: var(--body-font-size-m);
+}
+
+main .template-list .template-link,
+main .template-list .template-title-link {
+  text-decoration: none;
+  padding-left: 16px;
+  padding-top: 6px;
+  display: flex;
+}
+
+main .template-list .template-link::after,
+main .template-list .template-title-link::after {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-style: solid;
+  border-color: var(--color-info-accent);
+  transform-origin: 75% 75%;
+  transform: rotate( -45deg );
+  content: "";
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 2.25px;
+}
+
+main .template-list .template-title-link {
+  padding: 0;
+  white-space: nowrap;
+}
+
+main .template-list .template-title-link::after {
+  margin-top: 7px;
+}
+
+main .template-list .template p {
+  margin: 0;
+}
+
+main .template-list .template {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 0 0 32px 0;
+  justify-content: flex-end;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  text-decoration: unset;
+  position: relative;
+  border-radius: 7px;
+}
+
+main .template-list .template:focus {
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-white),
+    0 0 0 4px var(--color-info-accent);
+}
+
+
+main .template-list .template > div:first-child > a:any-link {
+  padding-left: 0;
+}
+
+main .template-list .template img, main .template-list .template video {
+  border-radius: 7px;
+}
+
+main .template-list.large .template {
+  width: 100%;
+  margin: 0;
+  border: 0;
+}
+
+main .template-list.large .template > div {
+  margin: 0;
+}
+
+main .template-list.large .template img {
+  width: 100%;
+}
+
+main .template-list + .button-container > a {
+  margin: 0;
+}
+
+main .template-list .template:not(.placeholder) .icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: 6px;
+  right: 6px;
+}
+
+main .template-list .template:not(.placeholder) .icon-free-badge {
+  height: 24px;
+  display: flex;
+  border-radius: 1000px;
+  align-items: center;
+  font-weight: 500;
+  width: max-content;
+  top: 8px;
+  right: 8px;
+  color: var(--color-white);
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 12px;
+  background: #000000B3;
+}
+
+/* horizontal template-list */
+main .template-list-horizontal-fullwidth-container > div,
+main .template-list-horizontal-fullwidth-collaboration-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+main .template-list.horizontal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 220px;
+}
+
+main .template-list.horizontal.fullwidth {
+  max-width: none;
+  padding: 0 16px;
+  display: block;
+  margin-left: auto;
+}
+
+main .template-list.horizontal.fullwidth.mini {
+  padding: unset;
+}
+
+main .template-list.horizontal .template {
+  min-height: 200px;
+  width: max-content;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+
+main .template-list.horizontal .template img,
+main .template-list.horizontal .template video {
+  height: 200px;
+  width: auto;
+}
+
+main .template-list.horizontal h4 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+main .template-list.horizontal .template:not(.placeholder) .template-link {
+  display: none;
+}
+
+main .template-list.horizontal.mini .template {
+  min-height: unset;
+  max-height: 100px;
+  max-width: 200px;
+  margin: 0 4px;
+}
+
+main .template-list.horizontal.mini .template.placeholder {
+  height: 100px;
+  width: 60px;
+  margin: 0 4px 0 12px;
+}
+
+main .template-list.horizontal.mini .template.placeholder > div:first-of-type {
+  height: unset;
+  width: unset;
+  display: block;
+  padding-top: 16px;
+}
+
+main .template-list.horizontal.mini .template.placeholder svg {
+  height: 18px;
+  width: 18px;
+}
+
+main .template-list.horizontal.mini .template.placeholder .template-link {
+  font-size: 12px;
+}
+
+main .template-list.horizontal.mini .template img,
+main .template-list.horizontal.mini .template video {
+  object-fit: cover;
+  height: 100px;
+}
+
+main .template-list.horizontal.mini .template .icon-free-badge {
+  height: 14px;
+  font-size: 8px;
+  padding: 0 5px;
+  right: 4px;
+  top: 4px;
+}
+
+main .template-list.sixcols .template,
+main .template-list.fullwidth .template {
+  position: relative;
+  display: inline-flex;
+  width: 165px;
+  margin: 5px;
+}
+
+main .template-list.horizontal.fullwidth .template {
+  width: auto;
+}
+
+main .template-list .template:not(.placeholder) > div:first-of-type {
+  overflow: hidden;
+  border-radius: 7px;
+  line-height: 0;
+}
+
+main .template-list.horizontal .template:not(.placeholder) img,
+main .template-list.horizontal .template:not(.placeholder) video,
+main .template-list.sixcols .template:not(.placeholder) img,
+main .template-list.sixcols .template:not(.placeholder) video,
+main .template-list.fullwidth .template:not(.placeholder) img,
+main .template-list.fullwidth .template:not(.placeholder) video {
+  transition: transform .3s ease-in-out;
+  will-change: transform;
+}
+
+main .template-list.horizontal .template:hover:not(.placeholder) img,
+main .template-list.horizontal .template:hover:not(.placeholder) video,
+main .template-list.sixcols .template:hover:not(.placeholder) img,
+main .template-list.sixcols .template:hover:not(.placeholder) video,
+main .template-list.fullwidth .template:hover:not(.placeholder) img,
+main .template-list.fullwidth .template:hover:not(.placeholder) video {
+  transform: scale(1.1);
+}
+
+main .template-list.horizontal .template:not(.placeholder) .button-container,
+main .template-list.sixcols .template:not(.placeholder) .button-container,
+main .template-list.fullwidth .template:not(.placeholder) .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  will-change: opacity;
+}
+
+main .template-list.horizontal .template:not(.placeholder) .template-link,
+main .template-list.sixcols .template:not(.placeholder) .template-link,
+main .template-list.fullwidth .template:not(.placeholder) .template-link {
+  opacity: 0;
+  transition: opacity .4s ease-in-out .2s;
+  will-change: opacity;
+}
+
+
+main .template-list.horizontal .template:hover:not(.placeholder) .button-container,
+main .template-list.horizontal .template:hover:not(.placeholder) .template-link,
+main .template-list.sixcols .template:hover:not(.placeholder) .button-container,
+main .template-list.sixcols .template:hover:not(.placeholder) .template-link,
+main .template-list.fullwidth .template:hover:not(.placeholder) .button-container,
+main .template-list.fullwidth .template:hover:not(.placeholder) .template-link {
+  opacity: 1;
+}
+
+main .template-list.horizontal .template:not(.placeholder) .template-link,
+main .template-list.sixcols .template:not(.placeholder) .template-link,
+main .template-list.fullwidth .template:not(.placeholder) .template-link {
+  text-decoration: none;
+  border-radius: 18px;
+  padding: 5px 1.2em 6px 1.2em;
+  text-align: center;
+  font-size: var(--body-font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--body-line-height);
+  cursor: pointer;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  margin: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  height: fit-content;
+}
+
+main .template-list.horizontal.mini .template:not(.placeholder) .template-link {
+  padding: 2px 4px;
+  font-size: 8px;
+}
+
+main .template-list.horizontal .template:not(.placeholder) .template-link::after,
+main .template-list.sixcols .template:not(.placeholder) .template-link::after,
+main .template-list.fullwidth .template:not(.placeholder) .template-link::after {
+  display: none;
+}
+
+main .template-list .template.placeholder {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 14px;
+  border: 2px dashed var(--color-gray-300);
+  height: 242px;
+  width: 200px;
+  margin: 21px 11px 53px 11px;
+  padding: 0;
+}
+
+main .template-list.sixcols .template.placeholder,
+main .template-list.fullwidth .template.placeholder {
+  width: 145px;
+  margin: 15px auto;
+}
+
+main .template-list .template.placeholder div:nth-of-type(2) {
+  margin: 0;
+  position: absolute;
+  padding: 0 20px;
+  bottom: 10%;
+}
+
+main .template-list .template.placeholder .template-link {
+  font-size: var(--body-font-size-s);
+  color: currentColor;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  width: fit-content;
+}
+
+main .template-list .template.placeholder > div:first-of-type {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .template-list .template.placeholder > div:first-of-type > img,
+main .template-list .template.placeholder > div:first-of-type > svg {
+  width: 44px;
+  height: 44px;
+}
+
+main .template-list .template.placeholder .template-link::after {
+  display: none;
+}
+
+main .template-list .template.placeholder.wide > div:first-of-type {
+  height: 65%;
+}
+
+main .template-list .template.placeholder.wide > div:first-of-type > img,
+main .template-list .template.placeholder.wide > div:first-of-type > svg {
+  width: 24px;
+  height: 24px;
+}
+
+main .template-list .template.placeholder div:nth-of-type(2) {
+  min-height: 28px;
+}
+
+main .template-list.flex-masonry .template {
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+main .template-list.flex-masonry .template.appear {
+  opacity: 1;
+}
+
+main .template-list-fullwidth-apipowered-container .template-list-wrapper {
+  position: relative;
+}
+
+main .template-list-fullwidth-apipowered-container .load-more {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 0;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 240px;
+  background: linear-gradient(#ffffff00, #ffffff, #ffffff);
+}
+
+main .template-list-fullwidth-apipowered-container .load-more-button {
+  width: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #e263f2, #f36979);
+  color: var(--color-white);
+  font-size: 36px;
+  border-radius: 36px;
+  border: 8px solid var(--color-gray-200);
+  transition: filter 0.2s;
+}
+
+main .template-list-fullwidth-apipowered-container .load-more-button:hover {
+  filter: brightness(0.95);
+}
+
+main .template-list-fullwidth-apipowered-container .load-more-button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+main .template-list-fullwidth-apipowered-container .load-more-text {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (min-width: 900px) {
+  main .template-list-container > div,
+  main .template-list-fourcols-container > div,
+  main .template-list-horizontal-container > div {
+    max-width: 900px;
+  }
+
+  main .template-list-sixcols-container > div {
+    max-width: 748px;
+  }
+
+  main .template-list-fullwidth-container > div,
+  main .template-list-fullwidth-container > .default-content-wrapper,
+  main .template-list-fullwidth-apipowered-container > div,
+  main .template-list-fullwidth-apipowered-container > .default-content-wrapper {
+    max-width: none;
+    padding: 0 28px;
+  }
+
+  main .template-list.sixcols > .masonry-col,
+  main .template-list.fullwidth > .masonry-col {
+    max-width: 187px;
+  }
+
+  main .template-list .template-title > div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  main .template-list .template-title > div > * {
+    text-align: left;
+  }
+
+  main .template-list.sixcols > .masonry-col,
+  main .template-list.fullwidth > .masonry-col {
+    max-width: 187px;
+  }
+
+  main .template-list .template {
+    width: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  main .template-list.sixcols .template:not(.placeholder),
+  main .template-list.fullwidth .template:not(.placeholder) {
+    margin: 11px 11px 9px 11px; /* make up for 4px height overlap in first child div */
+  }
+
+  main .template-list.sixcols .template.placeholder,
+  main .template-list.fullwidth .template.placeholder {
+    width: 145px;
+    margin: 21px;
+  }
+
+  /* template-list inside columns */
+
+  main .columns .template-list {
+    margin-top: 0;
+    margin-left: 40px;
+  }
+
+  main .template-list .template:not(.placeholder) .icon-free-badge {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .template-list-fourcols-container > div {
+    max-width: 1200px;
+  }
+
+  main .template-list-sixcols-container > div {
+    max-width: 1122px;
+  }
+
+  main .template-list-fullwidth-container > div,
+  main .template-list-fullwidth-apipowered-container > div {
+    max-width: none;
+  }
+
+  /* template-list inside columns */
+
+  main .columns .template-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  main .columns .template-list .template {
+    justify-content: flex-start;
+    min-width: 132px;
+  }
+
+  main .columns .template-list .template-link {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
+
+
+/* Carousel styles (Template-list specific) */
+
+/* hide controls in mobile-breakpoint if they scrolled using drag */
+main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-left,
+main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-right {
+  opacity: 0;
+  pointer-events: none;
+}
+
+main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-left a.button.carousel-arrow,
+main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-right a.button.carousel-arrow {
+  pointer-events: none;
+}
+
+/* Remove max-width on mobile breakpoints */
+main .section.template-list-horizontal-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main .section.template-list-horizontal-container > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* re-add max-width on elements that are not carousel */
+main .section.template-list-horizontal-container > div > *:not(.template-list.horizontal),
+main .section.template-list-horizontal-container > div > .template-list.horizontal > *:not(.carousel-container) {
+  max-width: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .template-list.horizontal .carousel-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+main .template-list.horizontal .carousel-platform {
+  scroll-padding: 12px;
+}
+
+@media (min-width: 600px) {
+  main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-left,
+  main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-right {
+    opacity: unset;
+  }
+
+  main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-left a.button.carousel-arrow,
+  main .template-list.horizontal .carousel-container.controls-hidden .carousel-fader-right a.button.carousel-arrow {
+    pointer-events: auto;
+  }
+
+  main .template-list.horizontal .carousel-container .carousel-fader-left.arrow-hidden,
+  main .template-list.horizontal .carousel-container .carousel-fader-right.arrow-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  main .template-list.horizontal .carousel-container .carousel-fader-left.arrow-hidden a.button.carousel-arrow,
+  main .template-list.horizontal .carousel-container .carousel-fader-right.arrow-hidden a.button.carousel-arrow {
+    pointer-events: none;
+  }
+
+  main .template-list.horizontal .carousel-container.controls-hidden .carousel-platform {
+    scroll-snap-type: x mandatory;
+  }
+
+  main .template-list.horizontal .carousel-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 470px;
+    display: block;
+  }
+
+  main .template-list.horizontal.fullwidth .carousel-container {
+    margin-bottom: 20px;
+    max-width: none;
+    display: block;
+  }
+
+  main .template-list.horizontal .carousel-container .carousel-fader-left {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+
+  main .template-list.horizontal.fullwidth .carousel-container .carousel-fader-left {
+    width: 150px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+
+  main .template-list.horizontal .carousel-container .carousel-fader-right {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+
+  main .template-list.horizontal.fullwidth .carousel-container .carousel-fader-left {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    width: 150px;
+  }
+}
+
+@media (min-width: 900px) {
+  main .template-list.horizontal .carousel-container {
+    margin-left: 12px;
+    margin-right: 12px;
+    max-width: none;
+    display: inline-block;
+  }
+
+  main .section.template-list-horizontal-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  main .section.template-list-horizontal-container > div {
+    max-width: 836px;
+  }
+
+  main .section.template-list-horizontal-container > div > *:not(.template-list.horizontal),
+  main .section.template-list-horizontal-container > div > .template-list.horizontal > *:not(.carousel-container) {
+    max-width: unset;
+  }
+
+  main .template-list.horizontal .carousel-container {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  main .template-list.horizontal {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .section.template-list-horizontal-container > div {
+    max-width: 1024px;
+  }
+
+  main .template-list.horizontal.fullwidth > div,
+  main .section.template-list-horizontal-fullwidth-container > div,
+  main .section.template-list-horizontal-fullwidth-collaboration-container > div {
+    max-width: none;
+  }
+
+  main .template-list.horizontal {
+    max-width: 1090px;
+  }
+}
+
+@media (max-width: 600px) {
+  main .section.template-list-horizontal-container > div.template-list-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: unset;
+  }
+}
+
+main .template-list.mini {
+  min-height: unset;
+}
+
+main .template-list-horizontal-fullwidth-mini-container .template-list .template-title {
+  margin-bottom: 8px;
+}
+
+main .template-list-horizontal-fullwidth-mini-container .template-list .template-title p:last-of-type {
+  margin-top: 16px;
+  font-weight: 800;
+}
+
+main .template-list-horizontal-fullwidth-mini-container .template-list .template-title p:first-of-type {
+  margin-bottom: 8px;
+}
+
+main .template-list-horizontal-fullwidth-mini-container .template-list .template-title p:last-of-type {
+  margin-top: 16px;
+  font-weight: 800;
+}
+
+main .template-list-horizontal-fullwidth-mini-container .template-title .icon {
+  height: unset;
+  width: 167px;
+}
+
+main .template-list-horizontal-fullwidth-mini-container .template-list .carousel-fader-left,
+main .template-list-horizontal-fullwidth-mini-container .template-list .carousel-fader-right {
+  display: none;
+}
+
+main .template-list-horizontal-fullwidth-mini-container > div {
+  max-width: unset;
+  padding: 0;
+}
+
+main .template-list.collaboration {
+  margin-bottom: 40px;
+}
+
+main .template-list.collaboration .template-title > div {
+  display: block;
+  position: relative;
+}
+
+main .template-list.collaboration .template-title .social-links {
+  display: flex;
+  gap: 12px;
+}
+
+main .template-list.collaboration .template-title .social-links a.template-title-link {
+  height: 22px;
+  width: 22px;
+}
+
+main .template-list.collaboration .template-title .social-links a.template-title-link svg {
+  height: 100%;
+  width: 100%;
+}
+
+main .template-list.collaboration .template-title .social-links a.template-title-link:after {
+  content: unset;
+}
+
+main .template-list.collaboration .template-title > div > h3 {
+  scroll-margin: 72px;
+  display: flex;
+  gap: 8px;
+  font-size: 22px;
+  line-height: 25px;
+  color: var(--color-black);
+}
+
+main .template-list.collaboration .template-title p:first-of-type {
+  max-width: 600px;
+  margin: 16px 0;
+}
+
+main .template-list.collaboration .template-title p:last-of-type {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+main .template-list.collaboration .template-title > div > h3 .collaboration-anchor {
+  display: inline-block;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  background-image: url('/express/icons/link.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+main .template-list.collaboration .template-title > div > h3 .collaboration-anchor .clipboard-tag {
+  background-color: #268e6c;
+  color: var(--color-white);
+  white-space: nowrap;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  position: absolute;
+  right: 0;
+  bottom: 32px;
+  opacity: 0;
+  transition: left 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+main .template-list.collaboration .template-title > div > h3 .collaboration-anchor.copied .clipboard-tag {
+  opacity: 1;
+}
+
+main .template-list.collaboration .carousel-container {
+  margin-left: 6px;
+}
+
+@media (min-width: 900px) {
+  main .template-list.collaboration .carousel-container {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .template-list-horizontal-fullwidth-mini-container .template-list.mini {
+    display: none;
+  }
+
+  main .template-list.collaboration .template-title > div > h3 {
+    gap: 12px;
+  }
+
+  main .template-list.collaboration .template-title > div > h3 .collaboration-anchor .clipboard-tag {
+    right: unset;
+    bottom: unset;
+    top: 50%;
+    left: 48px;
+    transform: translateY(-50%);
+  }
+
+  main .template-list.collaboration .template-title > div > h3 .collaboration-anchor.copied .clipboard-tag {
+    left: 28px;
+  }
+}
+
+main .template-list-horizontal-apipowered-holiday-container {
+  padding-bottom: 10px;
+  position: relative;
+  overflow-x: hidden;
+  background: var(--color-black);
+}
+
+main .template-list-horizontal-apipowered-holiday-container.with-animation {
+  color: var(--color-white);
+  padding-top: 0;
+}
+
+main .template-list-horizontal-apipowered-holiday-container p,
+main .template-list-horizontal-apipowered-holiday-container picture {
+  z-index: 1;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: none;
+  cursor: pointer;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-bar p {
+  margin: 14px 0;
+  font-size: 16px;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-bar img {
+  display: block;
+  max-height: 32px;
+  width: 84px;
+  min-width: 84px;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-button {
+  color: var(--color-white);
+  display: flex;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-button.mobile-only {
+  width: max-content;
+  padding: 0 32px;
+  transform: translate(0, -6px);
+  font-weight: 400;
+  transition: margin 0.5s, transform 0.5s;
+}
+
+main .template-list-horizontal-apipowered-holiday-container.with-icon .toggle-button.mobile-only {
+  margin: auto auto auto 190px;
+  transform: translate(-50%, -6px);
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-button.mobile-only.expanded {
+  transform: translate(-50%, -6px);
+  margin: auto auto auto 50%;
+}
+
+main .template-list-horizontal-apipowered-holiday-container.with-icon .toggle-button.mobile-only.expanded {
+  margin-left: 50%;
+  transform: translate(-50%, -6px);
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-button::after {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-style: solid;
+  border-color: var(--color-white);
+  transform-origin: 75% 75%;
+  transform: rotate(45deg);
+  content: "";
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 2.25px;
+  transition: transform 0.2s;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-button.expanded::after {
+  transform: rotate(-135deg);
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-bar-top,
+main .template-list-horizontal-apipowered-holiday-container .toggle-bar-bottom {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  color: var(--color-white);
+}
+
+main .template-list-horizontal-apipowered-holiday-container .toggle-bar-bottom {
+  display: none;
+  z-index: 1;
+  flex-grow: 1;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .template-list-wrapper p.mobile-only{
+  color: var(--color-white);
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  text-align: left;
+  margin: 0 0 16px;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .template-list-wrapper,
+main .template-list.holiday,
+main .template-list.holiday .carousel-container {
+  max-width: none;
+  z-index: 1;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .template-list-wrapper {
+  max-height: 0;
+  position: relative;
+  transition: max-height 0.5s, padding-top 0.5s;
+  overflow: hidden;
+}
+
+main .template-list-horizontal-apipowered-holiday-container .template-list-wrapper.expanded {
+  max-height: 300px;
+  padding-top: 16px;
+}
+
+main .template-list.holiday .carousel-container .carousel-platform {
+  scroll-padding: initial;
+}
+
+/* holiday animations */
+
+main .template-list-horizontal-apipowered-holiday-container .firework-canvas,
+main .template-list-horizontal-apipowered-holiday-container .snow-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100vw;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+main .template-list-horizontal-apipowered-holiday-container.expanded .firework-canvas,
+main .template-list-horizontal-apipowered-holiday-container.expanded .snow-background {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+@media (min-width: 600px) {
+  main .template-list.horizontal.holiday .carousel-container .carousel-fader-left,
+  main .template-list.horizontal.holiday .carousel-container .carousel-fader-right {
+    background: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .template-list-horizontal-apipowered-holiday-container {
+    padding-bottom: 0;
+  }
+
+  main .template-list-horizontal-apipowered-holiday-container .toggle-bar {
+    max-width: 1024px;
+  }
+
+  main .template-list-horizontal-apipowered-holiday-container .mobile-only {
+    display: none;
+  }
+
+  main .template-list-horizontal-apipowered-holiday-container .toggle-bar-bottom {
+    display: flex;
+  }
+
+  main .template-list-horizontal-apipowered-holiday-container .template-list-wrapper.expanded {
+    padding-top: 0;
+  }
+}
