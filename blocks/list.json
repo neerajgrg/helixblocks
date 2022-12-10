@@ -42,7 +42,7 @@
     {
       "name": "poll",
       "preview": true,
-      "doctable": true
+      "doctable": false
     },
     {
       "name": "section-background",
