@@ -2,56 +2,56 @@
     {
       "name": "cards",
        "preview": true,
-       "doc-table": true
+       "doctable": true
     },
     {
       "name": "columns",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "embed",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "footer",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "form",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "header",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "hero",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "metadata",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "poll",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "section-background",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     },
     {
       "name": "winners-carousel",
       "preview": true,
-      "doc-table": true
+      "doctable": true
     }
 ]
