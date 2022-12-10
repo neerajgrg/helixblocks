@@ -17,7 +17,7 @@
     {
       "name": "footer",
       "preview": true,
-      "docTable": true
+      "docTable": false
     },
     {
       "name": "form",

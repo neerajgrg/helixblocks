@@ -1,12 +1,1 @@
-[
-    ["  Embed "],
-    [
-      " Title ",
-      " Home | Helix Project Boilerplate ",
-    ],
-    [
-      " Description ",
-      " Use this template repository as the starting point for new Helix projects. ",
-    ]
-  ];
-  
+[["  Embed "], [" https://twitter.com/Adobe/status/1588187368334315521 "]];

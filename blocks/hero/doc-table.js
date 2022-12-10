@@ -2,7 +2,7 @@
       // Create a two-dimensional array containing the cell contents.
   var cells = [
     ['  HERO '],
-    ['Row 2, Cell 1', 'Row 2, Cell 2']
+    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/cards/card1.jpeg']
   ];
 
   // Build a table from the array.
