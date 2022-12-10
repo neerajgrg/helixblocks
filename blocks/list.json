@@ -1,35 +1,57 @@
  [
     {
-      "name": "cards"
+      "name": "cards",
+       "preview": true,
+       "doc-table": true
     },
     {
-      "name": "columns"
+      "name": "columns",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "embed"
+      "name": "embed",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "footer"
+      "name": "footer",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "form"
+      "name": "form",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "header"
+      "name": "header",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "hero"
+      "name": "hero",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "metadata"
+      "name": "metadata",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "poll"
+      "name": "poll",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "section-background"
+      "name": "section-background",
+      "preview": true,
+      "doc-table": true
     },
     {
-      "name": "winners-carousel"
+      "name": "winners-carousel",
+      "preview": true,
+      "doc-table": true
     }
 ]
