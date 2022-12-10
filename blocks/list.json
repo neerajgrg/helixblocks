@@ -53,5 +53,11 @@
       "name": "winners-carousel",
       "preview": true,
       "docTable": true
+    },
+    {
+      "name": "section-bar",
+      "preview": false,
+      "docTable": false,
+      "isHelixAction": true
     }
 ]
