@@ -4,14 +4,14 @@
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "columns"
+      "icon": "fa-columns"
     },
     {
       "name": "embed",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "anchor"
+      "icon": "fa-anchor"
        
     },
     {
@@ -19,7 +19,7 @@
       "preview": true,
       "docTable": true,
       "reference": "https://img.icons8.com/ios/512/test.png",
-      "icon": "rectangle-list"
+      "icon": "fa-rectangle-list"
       
     },
     {
@@ -27,7 +27,7 @@
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "file-invoice"
+      "icon": "fa-file-invoice"
       
     },
     {
@@ -35,27 +35,27 @@
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "survey-poll-horizontal"
+      "icon": "fa-square-poll-horizontal"
     },
     {
       "name": "section-background",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "puzzle-piece"
+      "icon": "fa-layer-group"
     },
     {
       "name": "winners-carousel",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "slideshare"
+      "icon": "fa-trophy"
     },
     {
       "name": "section-bar",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "bars"
+      "icon": "fa-bars"
     }
 ]
