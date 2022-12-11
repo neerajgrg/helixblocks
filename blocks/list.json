@@ -15,11 +15,6 @@
       "docTable": true
     },
     {
-      "name": "hero",
-      "preview": true,
-      "docTable": true
-    },
-    {
       "name": "metadata",
       "preview": true,
       "docTable": true
