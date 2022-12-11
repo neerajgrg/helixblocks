@@ -31,7 +31,7 @@
     {
       "name": "poll",
       "preview": true,
-      "docTable": false,
+      "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
       "icon": "https://img.icons8.com/ios/512/poll-topic.png"
     },
@@ -51,8 +51,8 @@
     },
     {
       "name": "section-bar",
-      "preview": false,
-      "docTable": false,
+      "preview": true,
+      "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
       "icon": "https://img.icons8.com/ios/512/horizontal-line.png"
     }
