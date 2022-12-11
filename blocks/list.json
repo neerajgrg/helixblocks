@@ -1,10 +1,5 @@
  [
     {
-      "name": "cards",
-       "preview": true,
-       "docTable": true
-    },
-    {
       "name": "columns",
       "preview": true,
       "docTable": true
@@ -15,17 +10,7 @@
       "docTable": true
     },
     {
-      "name": "footer",
-      "preview": true,
-      "docTable": false
-    },
-    {
       "name": "form",
-      "preview": true,
-      "docTable": true
-    },
-    {
-      "name": "header",
       "preview": true,
       "docTable": true
     },
