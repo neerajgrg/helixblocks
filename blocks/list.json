@@ -4,56 +4,58 @@
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/officel/512/columns.png"
-      
+      "icon": "columns"
     },
     {
       "name": "embed",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/ios-glyphs/512/link.png"
+      "icon": "anchor"
+       
     },
     {
       "name": "form",
       "preview": true,
       "docTable": true,
       "reference": "https://img.icons8.com/ios/512/test.png",
-      "icon": "https://img.icons8.com/ios/512/test.png"
+      "icon": "rectangle-list"
+      
     },
     {
       "name": "metadata",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/external-outline-black-m-oki-orlando/512/external-metadata-data-warehouse-outline-black-m-oki-orlando.png"
+      "icon": "file-invoice"
+      
     },
     {
       "name": "poll",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/ios/512/poll-topic.png"
+      "icon": "survey-poll-horizontal"
     },
     {
       "name": "section-background",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/512/external-background-vdo-production-xnimrodx-lineal-xnimrodx.png"
+      "icon": "puzzle-piece"
     },
     {
       "name": "winners-carousel",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/fluency-systems-regular/512/carousel.png"
+      "icon": "slideshare"
     },
     {
       "name": "section-bar",
       "preview": true,
       "docTable": true,
       "reference": "https://www.hlx.live/developer/block-collection/columns",
-      "icon": "https://img.icons8.com/ios/512/horizontal-line.png"
+      "icon": "bars"
     }
 ]
