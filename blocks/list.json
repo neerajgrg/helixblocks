@@ -2,42 +2,59 @@
     {
       "name": "columns",
       "preview": true,
-      "docTable": true
+      "docTable": true,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/officel/512/columns.png"
+      
     },
     {
       "name": "embed",
       "preview": true,
-      "docTable": true
+      "docTable": true,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/ios-glyphs/512/link.png"
     },
     {
       "name": "form",
       "preview": true,
-      "docTable": true
+      "docTable": true,
+      "reference": "https://img.icons8.com/ios/512/test.png",
+      "icon": "https://img.icons8.com/ios/512/test.png"
     },
     {
       "name": "metadata",
       "preview": true,
-      "docTable": true
+      "docTable": true,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/external-outline-black-m-oki-orlando/512/external-metadata-data-warehouse-outline-black-m-oki-orlando.png"
     },
     {
       "name": "poll",
       "preview": true,
-      "docTable": false
+      "docTable": false,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/ios/512/poll-topic.png"
     },
     {
       "name": "section-background",
       "preview": true,
-      "docTable": true
+      "docTable": true,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/512/external-background-vdo-production-xnimrodx-lineal-xnimrodx.png"
     },
     {
       "name": "winners-carousel",
       "preview": true,
-      "docTable": true
+      "docTable": true,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/fluency-systems-regular/512/carousel.png"
     },
     {
       "name": "section-bar",
       "preview": false,
       "docTable": false,
-      "isHelixAction": true
+      "isHelixAction": true,
+      "reference": "https://www.hlx.live/developer/block-collection/columns",
+      "icon": "https://img.icons8.com/ios/512/horizontal-line.png"
     }
 ]
