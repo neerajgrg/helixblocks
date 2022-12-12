@@ -1,8 +1,8 @@
 [
     ['  Winners Carousel '],
-    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/winners-carousel/neeraj.jpeg', ' Winner1 ', ' Neeraj Garg ', ' Cool '],
-    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/winners-carousel/abhishek.jpeg', ' Winner2 ', ' Abhisek Dwevedi ', ' Cool '],
-    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/winners-carousel/musk.jpeg', ' Winner3 ', ' Elon Musk ', ' Twitter Owner :)'],
+    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/winners-carousel/winner.jpeg', ' Winner1 ', ' MR. GARG ', ' Idea1 '],
+    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/winners-carousel/first.png', ' Winner2 ', ' MR.Dwivedi ', ' Idea2 '],
+    ['https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/winners-carousel/second.png', ' Winner3 ', ' MR. Sandeep ', '  Idea3 '],
   ];
   
   
