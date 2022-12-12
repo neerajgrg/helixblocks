@@ -26,13 +26,13 @@ main .winners-carousel > div,
 main .winners-carousel .carousel-slide-card {
   flex-shrink: 0;
   width: 100%;
-  background-color: var(--background-color);
+  background-color: #fff;
 }
 
 main .winners-carousel .carousel-slide-card {
   display: grid;
   grid-template-columns: 1fr;
-  border: 1px solid var(--border-color);
+  border: 1px solid rgb(90 92 96);
   background-color: white;
   width: 100%;
   border-radius: 9999px;
@@ -66,9 +66,9 @@ main .winners-carousel .carousel-nav {
   width: 48px;
   border-radius: 50%;
   background: #000;
-  color: var(--text-color-invert);
+  color: #fff;
   opacity: .4;
-  box-shadow: var(--box-shadow);
+  box-shadow: rgb(0 0 0 / 0%) 0 0 0 0, rgb(0 0 0 / 0%) 0 0 0 0, rgb(0 0 0 / 10%) 0 0 50px -5px, rgb(0 0 0 / 4%) 0 10px 10px -5px;
   transform: translateY(-50%);
   cursor: pointer;
   z-index: 3;
@@ -121,11 +121,11 @@ main .winners-carousel .carousel-slide-card .carousel-slide-card-content {
 }
 
 main .winners-carousel .carousel-slide-card .carousel-slide-card-content > div:first-child {
-  background-color: var(--highlight-background-color);
+  background-color: rgb(236 16 0);
   border-radius: 9999px;
   display: inline-flex;
   padding: .25em .75em;
-  font-size: var(--body-font-size-xs);
+  font-size: .875rem;
   line-height: 1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -133,10 +133,26 @@ main .winners-carousel .carousel-slide-card .carousel-slide-card-content > div:f
 
 main .winners-carousel .carousel-slide-card .carousel-slide-card-content > div:nth-child(2) {
   font-weight: 600;
-  font-size: var(--heading-font-size-m);
+  font-size: 1.25rem;
   line-height: 2.25rem;
 }
 
 main .winners-carousel .carousel-slide-card .carousel-slide-card-content a {
-  font-size: var(--body-font-size-s);
+  font-size:  1rem;
+}
+
+
+.previous-winners {
+  background: rgb(236 16 0);
+  color:  #fff;
+}
+
+.previous-winners .section-background picture {
+    width: 50%;
+    left: unset;
+}
+
+.previous-winners h2 {
+  margin-top: 0;
+  text-align: center;
 }
