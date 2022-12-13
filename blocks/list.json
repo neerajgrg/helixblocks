@@ -1,5 +1,13 @@
  [
     {
+      "name": "cards",
+       "preview": true,
+       "docTable": true,
+       "reference": "https://www.hlx.live/developer/block-collection/cards",
+       "icon": "fa-address-card"
+       
+    },
+    {
       "name": "columns",
       "preview": true,
       "docTable": true,
