@@ -1,15 +1,15 @@
 [
   ["  Cards "],
   [
-    "https://raw.githubusercontent.com/neerajgrg/HelloFranklin/main/blocks/cards/card1.jpeg",
-    " Helix is the fastest way to publish, create, and serve websites ",
+    "https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/cards/card1.png",
+    "  Know Your Customer ",
   ],
   [
-    "https://raw.githubusercontent.com/neerajgrg/HelloFranklin/main/blocks/cards/card2.jpeg",
-    " Helix allows you to publish more content in shorter time with smaller teams",
+    "https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/cards/card2.png",
+    " Charts for Forms ",
   ],
   [
-    "https://raw.githubusercontent.com/neerajgrg/HelloFranklin/main/blocks/cards/card3.jpeg",
-    " Preview content at 100% fidelity, get predictable content velocity, and shorten project durations",
+    "https://raw.githubusercontent.com/neerajgrg/helixblocks/main/blocks/cards/card3.png",
+    " eBPF on AMS ",
   ],
 ];
